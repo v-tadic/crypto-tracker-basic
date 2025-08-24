@@ -1,0 +1,149 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    animation-fill-mode: both;
+    font-family: "Montserrat", sans-serif;
+    color: #111827;
+  }
+
+  html{
+    scroll-behavior: smooth;
+  }
+
+  body{
+   height: 100vh;
+   background: #84A9FF;
+   background: linear-gradient(180deg, rgba(132, 169, 255, 1) 50%, rgba(245, 248, 255, 1) 100%);
+  }
+
+  .heading{
+    display: flex;
+    justify-content: center;
+    margin-top: 2rem;
+  }
+
+  .heading h1{
+    color: white;
+    font-weight: 250;
+    font-size: 2.7rem;
+  }
+
+  .Row{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin-top: 5rem;
+  }
+
+  .Card{
+    background-color: white;
+    width:30%;
+    border-radius: 2rem;
+    margin-bottom: 5rem;
+    background-color: white;
+  }
+
+  .Bitcoin{
+    display: flex;
+  }
+
+  .name{
+    display: flex;
+    align-items: center;
+    padding: 1rem;
+  }
+
+  .BitcoinImage{
+    width: 5rem;
+    height: auto;
+  }
+
+  .BitcoinText{
+    font-size: 4rem;
+    margin-left: 1.3rem;
+    color: lightgray;
+  }
+
+  .data{
+    margin-left: 1rem;
+    margin-right: 1.3rem;
+  }
+
+  .priceCont{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 1.3rem;
+    font-size: 2rem;
+  }
+
+  .priceCont p{
+    color: lightgray;
+  }
+
+  .priceChangeCont{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 1rem;
+    font-size: 2rem;
+  }
+
+  .priceChangeCont p{
+    color: lightgray;
+  }
+
+  .marketCapCont{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 2rem;
+    font-size: 2rem;
+  }
+
+  .marketCapCont p{
+    color: lightgray;
+  }
+
+@media (max-width: 768px){
+  body{
+    height: 100%;
+  }
+  .Row{
+    flex-direction: column;
+    margin-top: 0.5rem;
+  }
+  .Card{
+    width: 100%;
+    margin-bottom: 0.5rem;
+    border-radius: 0rem;
+    background-color: transparent;
+  }
+  .priceCont{
+    font-size: 1.4rem;
+  }
+  .priceChangeCont{
+    font-size: 1.4rem;
+  }
+  .marketCapCont{
+    font-size: 1.4rem;
+  }
+  .BitcoinText{
+    font-size: 3rem;
+    color: black;
+  }
+  .priceCont p{
+    color: black;
+  }
+  .priceChangeCont p{
+    color: black;
+  }
+  .marketCapCont p{
+    color: black;
+  }
+}
+
+ 
