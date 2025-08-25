@@ -42,6 +42,6 @@ async function getData() {
     }
 }
  
-// getData();
+getData();
 
 // setInterval(getData, 20000)
