@@ -11,4 +11,4 @@ Crypto Price Checker is a simple application that allows users to check the real
 ## Technologies
 
 - **Frontend**: HTML, CSS, JavaScript
-- **API**: CoinGecko API (or any similar cryptocurrency API)
+- **API**: CoinGecko API 
